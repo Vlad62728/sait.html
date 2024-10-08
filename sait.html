@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир олимпиад</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Мир олимпиад</h1>
+    </header>
+
+    <div class="container">
+        <input type="text" id="identifierInput" placeholder="Введите идентификатор">
+        <button onclick="showDiploma()">Показать диплом</button>
+        <div id="diplomaContainer" class="hidden">
+            <img id="diplomaImage" src="" alt="Диплом">
+        </div>
+    </div>
+
+    <div class="background">
+        <!-- Круги для фона -->
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <!-- Боковые некликабельные кнопки -->
+    <div class="sidebar left">
+        <div class="menu-item">Олимпиады</div>
+        <div class="menu-item">Конкурсы для педагогов</div>
+        <div class="menu-item">Публикации</div>
+        <div class="menu-item">Творческие конкурсы</div>
+        <div class="menu-item">Конференции</div>
+    </div>
+
+    <div class="sidebar right">
+        <div class="menu-item">Вебинары</div>
+        <div class="menu-item">Сертификаты</div>
+        <div class="menu-item">Рецензии</div>
+        <div class="menu-item">Как оплатить</div>
+        <div class="menu-item">Новости</div>
+        <div class="menu-item">О нас</div>
+    </div>
+
+    <!-- Кнопка обратной связи -->
+    <footer>
+        <button class="feedback-btn">Обратная связь</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
